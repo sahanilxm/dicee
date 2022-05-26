@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    text-align: center;
+    background-color: #FBE5E5;
+}
+.col1,.col2{
+    display: inline-block;
+    font-family: 'Odibee Sans', cursive;
+}
+.col1{
+    position: relative;
+    right: 5%;
+}
+.col2{
+    position: relative;
+    left: 5%;
+}
+.col{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ref{
+    width: 10rem;
+}
+.footer{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+.footer{
+    font-family: 'Dancing Script', cursive;
+}
+.winner{
+    font-family: 'Zen Loop', cursive;
+}
+.main{
+    font-family: 'Akshar', sans-serif;
+}
+#click{
+    cursor: pointer;
+}
